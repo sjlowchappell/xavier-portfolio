@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headShot from '../images/smilingHeadshot.jpg';
 import styles from './about.module.css';
+import video from '../images/header.mp4';
 
 const About = () => (
     <div>
@@ -42,6 +43,16 @@ const About = () => (
             </div>
             <div>
                 <h2>Video Resume</h2>
+                <div className={styles.videoContainer}>
+                    <video
+                        muted
+                        controls
+                        id="videoResume"
+                        className={styles.video}
+                    >
+                        <source src={video} type="video/mp4"></source>
+                    </video>
+                </div>
             </div>
             <div>
                 <h2>The Numbers</h2>

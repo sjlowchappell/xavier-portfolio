@@ -1,6 +1,5 @@
 .headshot {
     width: 50%;
-    box-shadow: ;
 }
 
 .aboutContainer {
@@ -21,4 +20,8 @@
 
 .numbersContainer {
     display: flex;
+}
+
+.video {
+    max-width: 100%;
 }
