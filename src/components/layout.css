@@ -188,6 +188,23 @@ h1 {
     font-size: 8rem;
 }
 
-p {
+p,
+a {
     font-size: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+/* General Styles */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0px 15px;
 }
