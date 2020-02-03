@@ -22,9 +22,13 @@ const Layout = ({ children }) => {
                 <Header siteTitle={data.site.siteMetadata.title} />
                 <main>{children}</main>
                 <footer>
-                    © {new Date().getFullYear()}, Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a>
+                    <p>
+                        © {new Date().getFullYear()}, Designed and Built by
+                        {` `}
+                        <a href="https://www.samlow-chappell.com">
+                            Sam Low-Chappell
+                        </a>
+                    </p>
                 </footer>
             </div>
         </>

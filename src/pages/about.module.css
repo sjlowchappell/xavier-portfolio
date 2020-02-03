@@ -1,0 +1,24 @@
+.headshot {
+    width: 50%;
+    box-shadow: ;
+}
+
+.aboutContainer {
+    display: flex;
+    padding-top: 100px;
+}
+
+.bio {
+    width: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.mission {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.numbersContainer {
+    display: flex;
+}

@@ -183,9 +183,20 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    text-align: center;
+}
+
 h1 {
     margin: 0;
     font-size: 8rem;
+}
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 p,
@@ -207,4 +218,9 @@ ul {
     margin: 0 auto;
     max-width: 960px;
     padding: 0px 15px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
